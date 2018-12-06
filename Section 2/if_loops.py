@@ -18,3 +18,8 @@ if is_programmer is True:
     print("poop dick")
 else:
     print("you suck")
+
+if is_programmer is False:
+    print("Why wouldn't you be")
+else:
+    print("You're awesome")
