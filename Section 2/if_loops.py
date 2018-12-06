@@ -9,11 +9,12 @@ if loops
 """
 
 programmer = True
+is_programmer = False
+is_awesome = True
 
 if programmer is True:
     print("Cool dude")
     
-    is_programmer = False
 if is_programmer is True:
     print("poop dick")
 else:
@@ -23,3 +24,10 @@ if is_programmer is False:
     print("Why wouldn't you be")
 else:
     print("You're awesome")
+
+if is_programmer is False or is_awesome is False :
+    print('Way to Go')
+elif is_programmer is False and is_awesome is True : 
+    print('Wow')
+else:
+    print('error')
