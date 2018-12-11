@@ -26,7 +26,7 @@ for num in range(2,10):
     
 ##Prime number search
     
-for n in range(2,1000):
+for n in range(2,100):
     for x in range(2, n):
         if n % x == 0:
             print(f'{n} equals {x} * {n//x}')
