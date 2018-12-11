@@ -18,6 +18,8 @@ Functions
 
 #name: input('Enter your name: ')
 #print(f'hello {name}')
+prime = True
+
 
 def greet():
     name = input('Enter your name: ')
@@ -29,13 +31,12 @@ def check_primes():
     for num in range(2, 20):
         check_if_prime(num) # num is an arguement, being passed in from the for loop
         
-def check_if_prime(n): # n is called the parameter function can receive a value
+def check_if_prime(n):# n is called the parameter function can receive a value 
     for x in range(2, n):
         if n % x == 0:
-            print(f'{n} equals {x} * {n//x}')
-            break
-    else:
-        print(f'{n} is a prime number')
+            prime = False
+            return prime
+
 
 
 check_primes()
@@ -43,9 +44,13 @@ check_primes()
 
 def adding():
     print('The Python Adding Machine')
-    num_one = float(input('First number: '))
-    second_num = float(input('Second number: '))
+    num_one = int(input('First number: '))
+    second_num = int(input('Second number: '))
     sum = num_one + second_num
+    check_if_prime(sum)
+    if check_if_prime is False:
+            print('That number is prime')
+    
     print(f'the sum of {num_one} + {second_num} is {sum}')
     print('---- ----- ----- ------ -----')
 def subtraction():
