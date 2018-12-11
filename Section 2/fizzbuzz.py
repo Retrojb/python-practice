@@ -6,13 +6,12 @@ Created on Mon Dec 10 19:49:14 2018
 @author: johnbaltes
 """
 
-num = 0 
-
-for num in range(0,101):
-    for x in range(0, num):
-        if num % x == 3:
-            print('fizz')
-            continue
-    else:
-        print(num)
-   
+for n in range(0,101):
+        if n % 3 == 0 and n % 5 == 0:
+            print('FizzBuzz')
+        elif n % 3 == 0:
+            print('Fizz')
+        elif n % 5 == 0:
+            print('Buzz')
+        else:
+            print(n)
