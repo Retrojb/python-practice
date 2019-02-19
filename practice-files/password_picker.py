@@ -6,10 +6,10 @@ while True:
     for num in range(5):
         adjectives = ['drowsy', 'horny', 'fluffy', 'chunky', 'funky',
                       'handsome', 'beautiful', 'smelly', 'tall', 'sloopy',
-                      'short', 'stinky']
+                      'short', 'stinky', 'swEEtChrisTMAS', 'c0ffeE']
 
-        nouns = ['people', 'cars', 'goats', 'elephants', 'cheeseburgers',
-                 'frats', 'dogs', 'hotdogs', 'sharks', 'jackets']
+        nouns = ['IronMan', 'spiderMan', 'Daredevil', 'LukeCage', 'cheeseburgers',
+                 'farts', 'dAWgs', 'h0td0gs', 'sharks', 'jackets', 'PunisHER', 'K1nGp1n']
 
 
 
